@@ -8,10 +8,10 @@ This approach is **extremely fast** compared with alternative LQIP techniques an
 
 | Approach         | Speed  | Avg Size |
 | ---------------- | ------ | -------- |
-| lqip             | 0.395s | 887 B    |
-| lqip-custom      | 0.040s | 545 B    |
 | lqip-modern webp | 0.009s | 464 B    |
 | lqip-modern jpeg | 0.003s | 540 B    |
+| lqip             | 0.395s | 887 B    |
+| lqip-custom      | 0.040s | 545 B    |
 | sqip (default)   | 1.468s | 509 B    |
 
 _Generated with a [fork of sqip's excellent comparison benchmark](https://github.com/transitive-bullshit/sqip/tree/feature/lqip-modern/demo)._
@@ -106,6 +106,8 @@ The format of the output is as close to [sqip](https://github.com/axe312ger/sqip
 Webp is supported by [98% of browsers](https://caniuse.com/#feat=webp) and produces significantly smaller results.
 
 If you need 100% browser support, then I recommend that you use the `jpeg` output format or [sqip](https://github.com/axe312ger/sqip).
+
+In the future, I'd love to experiment with outputting `jpeg` at full quality and then compressing the results with [mozjpeg](https://github.com/imagemin/mozjpeg-bin) at 20% quality.
 
 ## Related
 
