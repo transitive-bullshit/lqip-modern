@@ -14,7 +14,9 @@
     "test": "run-s test:*",
     "test:unit": "ava -v",
     "test:lint": "eslint '**/*.js'",
-    "test:format": "prettier '**/*.js' --check"
+    "test:format": "prettier '**/*.js' --check",
+    "demo": "serve demo",
+    "demo:publish": "gh-pages -d demo"
   },
   "dependencies": {
     "p-map": "^4.0.0",
@@ -28,6 +30,7 @@
     "globby": "^11.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.5",
+    "serve": "^11.3.2",
     "update-markdown-jsdoc": "^1.0.11"
   },
   "ava": {
