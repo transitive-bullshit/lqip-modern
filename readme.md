@@ -1,6 +1,6 @@
 # lqip-modern
 
-> Modern approach to Low Quality Image Placeholders (LQIP) using `webp` and `sharp`.
+> Modern approach to Low Quality Image Placeholders (LQIP) using `webp` and `sharp`. ([demo](https://transitive-bullshit.github.io/lqip-modern/))
 
 [![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://travis-ci.com/transitive-bullshit/lqip-modern.svg?branch=master)](https://travis-ci.com/transitive-bullshit/lqip-modern) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,6 +13,8 @@ This approach is **extremely fast** compared with alternative LQIP techniques an
 | lqip             | 0.395s | 887 B    |
 | lqip-custom      | 0.040s | 545 B    |
 | sqip (default)   | 1.468s | 509 B    |
+
+Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for full results.
 
 _Generated with a [fork of sqip's excellent comparison benchmark](https://github.com/transitive-bullshit/sqip/tree/feature/lqip-modern/demo)._
 
@@ -37,7 +39,7 @@ Note that Medium uses this scale transform on its placeholder images for two rea
 - Hide the [artifacts around the edges](http://volkerotto.net/2014/07/03/css-background-image-blur-without-blury-edges/) of the blurred images.
 - Provide an aesthetically pleasing feeling of zooming into the original image once it's loaded.
 
-An alternative to using this `blur` + `transform` technique is to use a CSS [backdrop-filter](https://css-tricks.com/almanac/properties/b/backdrop-filter/) ([compatibility](https://caniuse.com/#search=backdrop-filter)). This technique is less compatible across browsers, but it produces clean blurred preview images without the need to transform the placeholder.
+An alternative to using this `blur` + `transform` technique is to use a CSS [backdrop-filter](https://css-tricks.com/almanac/properties/b/backdrop-filter/). This technique has less [cross-browser support](https://caniuse.com/#search=backdrop-filter), but it produces clean blurred preview images without the need to transform the placeholder.
 
 ```css
 .placeholder::after {
