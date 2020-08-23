@@ -6,7 +6,7 @@
 
 This approach is **extremely fast** compared with alternative LQIP techniques and **160x faster** than [SQIP](https://github.com/axe312ger/sqip).
 
-| Approach         | Speed  | Avg Size |
+| Approach         | Avg Speed  | Avg Size |
 | ---------------- | ------ | -------- |
 | lqip-modern webp | 0.009s | 464 B    |
 | lqip-modern jpeg | 0.003s | 540 B    |
@@ -28,7 +28,7 @@ Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for mor
 
 This package uses an almost identical LQIP approach to the one used by [Medium](https://medium.com/).
 
-We use `sharp` to resize input images to a max dimension of 60 and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20.
+We use `sharp` to resize input images to a max dimension of 16 and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20.
 
 This resuls in very efficient placeholder images that have noticeable artifacts due to the low quality encoding. These artifacts are then hidden in the browser using a simple blur filter.
 
@@ -107,7 +107,7 @@ The format of the output is as close to [sqip](https://github.com/axe312ger/sqip
   - `opts.concurrency` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Concurrency when processing an array of input images. (optional, default `4`)
   - `opts.outputFormat` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`). (optional, default `'webp'`)
   - `opts.outputOptions` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Output options passed to either `sharp.webp` or `sharp.jpeg` dependent on `opts.outputFormat`.
-  - `opts.resize` **([number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;any>)?** Options to pass to `sharp.resize`. Defaults to resizing inputs to a max dimension of `60`, with the other dimension being calculated to maintain aspect ratio. If you want more control, you can pass an array of args here which will be forwarded to `sharp.resize`.
+  - `opts.resize` **([number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;any>)?** Options to pass to `sharp.resize`. Defaults to resizing inputs to a max dimension of `16`, with the other dimension being calculated to maintain aspect ratio. If you want more control, you can pass an array of args here which will be forwarded to `sharp.resize`.
 
 ## Compatibility
 
@@ -123,6 +123,9 @@ In the future, I'd love to experiment with outputting `jpeg` at full quality and
 - [sqip](https://github.com/axe312ger/sqip) - Really solid SVG-based LQIP alternative.
   - See their comprehensive [comparison](https://axe312ger.github.io/sqip/) of LQIP techniques.
   - The biggest disadvantage of this approach is that it's ~10-100x slower to compute these images.
+- [blurhash](https://github.com/woltapp/blurhash) - Compact placeholder images.
+  - Really nice, compact placeholders.
+  - Requires non-native client-side decoding.
 
 ## License
 
