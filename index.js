@@ -32,7 +32,6 @@ async function computeLqipImage(input, opts = {}) {
   const image = sharp(input)
   const metadata = await image.metadata()
 
-  // by default, the resizing ensure that we won't ever upscale an image
   const resized = image.resize(
     ...(Array.isArray(resize)
       ? resize
