@@ -16,7 +16,7 @@
     "test:lint": "eslint '**/*.js'",
     "test:format": "prettier '**/*.js' --check",
     "demo": "serve demo",
-    "demo:publish": "gh-pages -d demo"
+    "deploy": "gh-pages -d demo"
   },
   "dependencies": {
     "p-map": "^4.0.0",
