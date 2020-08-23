@@ -10,7 +10,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "docs": "update-markdown-jsdoc --no-markdown-toc",
+    "docs": "update-markdown-jsdoc --no-markdown-toc && prettier --write readme.md",
     "test": "run-s test:*",
     "test:unit": "ava -v",
     "test:lint": "eslint '**/*.js'",
