@@ -6,13 +6,17 @@
 
 This approach is **extremely fast** compared with alternative LQIP techniques and **160x faster** than [SQIP](https://github.com/axe312ger/sqip).
 
-| Approach         | Avg Speed  | Avg Size |
-| ---------------- | ------ | -------- |
-| lqip-modern webp | 0.009s | 464 B    |
-| lqip-modern jpeg | 0.003s | 540 B    |
-| lqip             | 0.395s | 887 B    |
-| lqip-custom      | 0.040s | 545 B    |
-| sqip (default)   | 1.468s | 509 B    |
+| Approach                | Avg Encode Speed | Avg Size |
+| ----------------------- | ---------------- | -------- |
+| lqip-modern webp @ 16px | 0.011s           | 152 B    |
+| lqip-modern jpeg @ 16px | 0.003s           | 274 B    |
+| lqip-modern webp @ 8px  | 0.014s           | 129 B    |
+| lqip-modern jpeg @ 8px  | 0.003s           | 244 B    |
+| lqip-modern webp @ 32px | 0.013s           | 257 B    |
+| lqip-modern jpeg @ 32px | 0.002s           | 347 B    |
+| lqip (old)              | 0.395s           | 887 B    |
+| lqip-custom jpeg @ 32px | 0.040s           | 545 B    |
+| sqip (default)          | 1.468s           | 509 B    |
 
 Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for full results.
 
@@ -26,9 +30,9 @@ Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for mor
 
 ## How It Works
 
-This package uses an almost identical LQIP approach to the one used by [Medium](https://medium.com/).
+This package uses a very similar LQIP approach to the one used by [Medium](https://medium.com/).
 
-We use `sharp` to resize input images to a max dimension of 16 and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20.
+We use `sharp` to resize input images to a max dimension of `16px` and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20. The max dimension is a single, simple variable to tradeoff between encoded image size and visual fidelity.
 
 This resuls in very efficient placeholder images that have noticeable artifacts due to the low quality encoding. These artifacts are then hidden in the browser using a simple blur filter.
 
@@ -36,7 +40,6 @@ This resuls in very efficient placeholder images that have noticeable artifacts 
 .placeholder {
   filter: blur(20px);
   transform: scale(1.1);
-  overflow: hidden;
 }
 ```
 
@@ -125,7 +128,7 @@ In the future, I'd love to experiment with outputting `jpeg` at full quality and
   - The biggest disadvantage of this approach is that it's ~10-100x slower to compute these images.
 - [blurhash](https://github.com/woltapp/blurhash) - Compact placeholder images.
   - Really nice, compact placeholders.
-  - Requires non-native client-side decoding.
+  - Requires non-native client-side decoding which makes it awkward and slow for browser usage.
 
 ## License
 
