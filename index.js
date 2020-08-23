@@ -6,7 +6,8 @@ const pMap = require('p-map')
 /**
  * @name lqipModern
  *
- * @param {Buffer|string|Buffer[]|string[]} input - Either an array of image inputs or a single image input. Each image input may either be a `Buffer` containing raw image data, or a `string` containing the filesystem path to a supported image type.
+ * @param {Buffer|string|Buffer[]|string[]} input - Either an array of image inputs or a single image input.
+ * Each image input may either be a `Buffer` containing raw image data, or a `string` containing the filesystem path to a supported image type.
  * @param {Object} [opts] - Optional configuration options.
  * @param {number} [opts.concurrency=4] - Concurrency when processing an array of input images.
  * @param {string} [opts.outputFormat='webp'] - Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`).
