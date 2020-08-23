@@ -25,9 +25,8 @@ for (const fixture of fixtures) {
 
     await fs.writeFile(path.join(outputDir, `${name}.webp`), result.content)
 
-    const { dataURIBase64, ...metadata } = result.metadata
-    console.log(metadata)
-    t.snapshot(metadata)
+    console.log(fixture, result.metadata)
+    t.snapshot(result.metadata)
   })
 
   test(`${fixture} => jpeg`, async (t) => {
@@ -39,9 +38,8 @@ for (const fixture of fixtures) {
 
     await fs.writeFile(path.join(outputDir, `${name}.jpg`), result.content)
 
-    const { dataURIBase64, ...metadata } = result.metadata
-    console.log(metadata)
-    t.snapshot(metadata)
+    console.log(fixture, result.metadata)
+    t.snapshot(result.metadata)
   })
 }
 

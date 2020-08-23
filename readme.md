@@ -86,10 +86,10 @@ which outputs
   metadata: {
     originalWidth: 1400,
     originalHeight: 350,
-    width: 1400,
-    height: 350,
+    width: 16,
+    height: 4,
     type: 'webp',
-    dataURIBase64: 'data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAADQBQCdASo8AA8APy18uFOup6WisAwB0CWJbACdMr9v/2P/aAcktLTW2FS031/Zg0AgyTdqdt+0AOU2hloGrW+F00NdaSnnTwx3AmJNLU8WsKf0E0qFoph3B5SIPdY1yjcpnDA0KVnL3O9iM/PByunAvd5Q5hOzDZylh3ZJB5se2muUQShndTJaNleAGb9MMYyiJxA2yRyWQrvGaMuGnkyAyUAYRFCSCtCl4FQGDtOSR28ibmMHNaF+4p98K8OkMFDZMQBGWxYL70xIoJ7OVE+uh2PSKZEcbiMAe74Tcj3KqnkRrtSZBg/8MexX/29vc/XzaNnSXPQx3xmyo4m/NGTfPcL+sAAA'
+    dataURIBase64: 'data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAQABUB8JYgCdADjazMu8AD+flCYsVr2GH6CLYVog1jhRLpBUIu8UmqhGnoAAAA='
   }
 }
 ```
