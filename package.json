@@ -1,0 +1,36 @@
+{
+  "name": "lqip-modern",
+  "version": "0.1.0",
+  "description": "TODO",
+  "main": "index.js",
+  "repository": "transitive-bullshit/lqip-modern",
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "docs": "update-markdown-jsdoc --no-markdown-toc",
+    "test": "run-s test:*",
+    "test:unit": "ava -v",
+    "test:lint": "eslint '**/*.js'",
+    "test:format": "prettier '**/*.js' --check"
+  },
+  "dependencies": {
+    "p-map": "^4.0.0",
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "ava": "^3.11.1",
+    "eslint": "^7.7.0",
+    "fs-extra": "^9.0.1",
+    "globby": "^11.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "update-markdown-jsdoc": "^1.0.11"
+  },
+  "ava": {
+    "failFast": true,
+    "snapshotDir": "./.snapshots"
+  }
+}
