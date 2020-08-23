@@ -15,10 +15,15 @@ This resuls in very efficient placeholder images that have noticeable artifacts 
 ```css
 .placeholder {
   filter: blur(20px);
+  transform: scale(1.1);
+  overflow: hidden;
 }
 ```
 
-Medium uses an additional `transform: scale(1.1)` on its placeholder images for an aesthetically pleasing feeling of zooming into the original image once it's loaded.
+Note that Medium uses this scale transform on its placeholder images. There are two reasons for this:
+
+- Hides the [artifacts around the edges](http://volkerotto.net/2014/07/03/css-background-image-blur-without-blury-edges/) of the blurred images.
+- Provides an aesthetically pleasing feeling of zooming into the original image once it's loaded.
 
 ## Install
 
