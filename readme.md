@@ -18,6 +18,12 @@ Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for ful
 
 _Generated with a [fork of sqip's excellent comparison benchmark](https://github.com/transitive-bullshit/sqip/tree/feature/lqip-modern/demo)._
 
+## Examples
+
+Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for more examples and details.
+
+[![](https://raw.githubusercontent.com/transitive-bullshit/lqip-modern/master/preview.jpg)](https://transitive-bullshit.github.io/lqip-modern/)
+
 ## How It Works
 
 This package uses an almost identical LQIP approach to the one used by [Medium](https://medium.com/).
