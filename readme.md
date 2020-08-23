@@ -6,7 +6,7 @@
 
 ## How It Works
 
-This package uses an almost identical LQIP approach to one used by [Medium](https://medium.com/).
+This package uses an almost identical LQIP approach to the one used by [Medium](https://medium.com/).
 
 We use `sharp` to resize input images to a max dimension of 60 and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20.
 
@@ -20,10 +20,10 @@ This resuls in very efficient placeholder images that have noticeable artifacts 
 }
 ```
 
-Note that Medium uses this scale transform on its placeholder images. There are two reasons for this:
+Note that Medium uses this scale transform on its placeholder images for two reasons:
 
-- Hides the [artifacts around the edges](http://volkerotto.net/2014/07/03/css-background-image-blur-without-blury-edges/) of the blurred images.
-- Provides an aesthetically pleasing feeling of zooming into the original image once it's loaded.
+- Hide the [artifacts around the edges](http://volkerotto.net/2014/07/03/css-background-image-blur-without-blury-edges/) of the blurred images.
+- Provide an aesthetically pleasing feeling of zooming into the original image once it's loaded.
 
 ## Install
 
