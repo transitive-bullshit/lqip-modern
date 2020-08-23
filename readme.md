@@ -4,19 +4,19 @@
 
 [![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://travis-ci.com/transitive-bullshit/lqip-modern.svg?branch=master)](https://travis-ci.com/transitive-bullshit/lqip-modern) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This approach is **extremely fast** compared with alternative LQIP techniques and **160x faster** than [SQIP](https://github.com/axe312ger/sqip).
+This approach is **extremely fast** and produces **much smaller outputs** than alternatives like [SQIP](https://github.com/axe312ger/sqip).
 
-| Approach                | Avg Encode Speed | Avg Size |
-| ----------------------- | ---------------- | -------- |
-| lqip-modern webp @ 16px | 0.011s           | 152 B    |
-| lqip-modern jpeg @ 16px | 0.003s           | 274 B    |
-| lqip-modern webp @ 8px  | 0.014s           | 129 B    |
-| lqip-modern jpeg @ 8px  | 0.003s           | 244 B    |
-| lqip-modern webp @ 32px | 0.013s           | 257 B    |
-| lqip-modern jpeg @ 32px | 0.002s           | 347 B    |
-| lqip (old)              | 0.395s           | 887 B    |
-| lqip-custom jpeg @ 32px | 0.040s           | 545 B    |
-| sqip (default)          | 1.468s           | 509 B    |
+| Approach        | format | Width    | Avg Encode Speed | Avg Size |
+| --------------- | ------ | -------- | ---------------- | -------- |
+| lqip-modern 🔥  | webp   | 16px     | 0.011s           | 152 B    |
+| lqip-modern     | jpeg   | 16px     | 0.003s           | 274 B    |
+| lqip-modern     | webp   | 8px      | 0.014s           | 129 B    |
+| lqip-modern     | jpeg   | 8px      | 0.003s           | 244 B    |
+| lqip-modern     | webp   | 32px     | 0.013s           | 257 B    |
+| lqip-modern     | jpeg   | 32px     | 0.002s           | 347 B    |
+| lqip (original) | jpeg   | 10px     | 0.395s           | 887 B    |
+| lqip-custom     | jpeg   | 32px     | 0.040s           | 545 B    |
+| sqip (default)  | svg    | original | 1.468s           | 509 B    |
 
 Check out the [demo](https://transitive-bullshit.github.io/lqip-modern/) for full results.
 
@@ -129,6 +129,7 @@ In the future, I'd love to experiment with outputting `jpeg` at full quality and
 - [blurhash](https://github.com/woltapp/blurhash) - Compact placeholder images.
   - Really nice, compact placeholders.
   - Requires non-native client-side decoding which makes it awkward and slow for browser usage.
+  - Under the hood, the `webp` format performs a similar set of transforms as the one used by blurhash.
 
 ## License
 
