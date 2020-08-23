@@ -45,7 +45,7 @@ for (const fixture of fixtures) {
   })
 }
 
-test(`array of inputs`, async (t) => {
+test('array of inputs', async (t) => {
   const results = await lqip(fixtures)
   t.true(Array.isArray(results))
   t.is(results.length, fixtures.length)

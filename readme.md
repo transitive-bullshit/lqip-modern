@@ -1,6 +1,6 @@
 # lqip-modern
 
-> Modern approach to Low Quality Image Placeholders (LQIP) using `webp` and the approach used by Medium.
+> Modern approach to Low Quality Image Placeholders (LQIP) using `webp` and `sharp`.
 
 [![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://travis-ci.com/transitive-bullshit/lqip-modern.svg?branch=master)](https://travis-ci.com/transitive-bullshit/lqip-modern) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
