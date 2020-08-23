@@ -6,17 +6,19 @@
 
 ## How It Works
 
-This package uses an almost identical approach to the LQIP technique used by [Medium](https://medium.com/).
+This package uses an almost identical LQIP approach to one used by [Medium](https://medium.com/).
 
-We use `sharp` to resize input images to a max dimension of 60 and output `webp` (default) or `jpeg` images with encoding `quality` set to 20.
+We use `sharp` to resize input images to a max dimension of 60 and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20.
 
-This resuls in very efficient placeholders that have noticeable artifacts due to the low quality encoding. These artifacts are hidden, however, in the browser using a simple blur filter.
+This resuls in very efficient placeholder images that have noticeable artifacts due to the low quality encoding. These artifacts are then hidden in the browser using a simple blur filter.
 
 ```css
 .placeholder {
   filter: blur(20px);
 }
 ```
+
+Medium uses an additional `transform: scale(1.1)` on its placeholder images for an aesthetically pleasing feeling of zooming into the original image once it's loaded.
 
 ## Install
 
@@ -66,6 +68,12 @@ The format of the output is as close to [sqip](https://github.com/axe312ger/sqip
   - `opts.outputFormat` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`). (optional, default `'webp'`)
   - `opts.outputOptions` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Output options passed to either `sharp.webp` or `sharp.jpeg` dependent on `opts.outputFormat`.
   - `opts.resize` **([number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;any>)?** Options to pass to `sharp.resize`. Defaults to resizing inputs to a max dimension of `60`, with the other dimension being calculated to maintain aspect ratio. If you want more control, you can pass an array of args here which will be forwarded to `sharp.resize`.
+
+## Compatibility
+
+Webp is supported by [98% of browsers](https://caniuse.com/#feat=webp) and produces significantly smaller results.
+
+If you need 100% browser support, however, then you should use the `jpeg` output format or [sqip](https://github.com/axe312ger/sqip).
 
 ## Related
 
