@@ -37,10 +37,10 @@ yarn add lqip-modern
 
 ```js
 const lqip = require('lqip-modern')
-const result = await lqip('./fixtures/brooklyn.jpg')
+const result = await lqip('fixtures/brooklyn.jpg')
 ```
 
-The output would be:
+which outputs
 
 ```js
 {
@@ -78,7 +78,7 @@ The format of the output is as close to [sqip](https://github.com/axe312ger/sqip
 
 Webp is supported by [98% of browsers](https://caniuse.com/#feat=webp) and produces significantly smaller results.
 
-If you need 100% browser support, however, then you should use the `jpeg` output format or [sqip](https://github.com/axe312ger/sqip).
+If you need 100% browser support, then I recommend that you use the `jpeg` output format or [sqip](https://github.com/axe312ger/sqip).
 
 ## Related
 
