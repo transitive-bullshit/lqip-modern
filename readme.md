@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://travis-ci.com/transitive-bullshit/lqip-modern.svg?branch=master)](https://travis-ci.com/transitive-bullshit/lqip-modern) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This approach is **extremely fast** and produces **much smaller outputs** than alternatives like [SQIP](https://github.com/axe312ger/sqip).
+This approach is **extremely fast** and produces **much smaller outputs** than alternatives like [sqip](https://github.com/axe312ger/sqip).
 
 | Approach        | format | Width    | Avg Encode Speed | Avg Size |
 | --------------- | ------ | -------- | ---------------- | -------- |
