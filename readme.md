@@ -126,9 +126,9 @@ In the future, I'd love to experiment with outputting `jpeg` at full quality and
 - [sqip](https://github.com/axe312ger/sqip) - Really solid SVG-based LQIP alternative.
   - See their comprehensive [comparison](https://axe312ger.github.io/sqip/) of LQIP techniques.
   - The biggest disadvantage of this approach is that it's ~10-100x slower to compute these images.
-- [blurhash](https://github.com/woltapp/blurhash) - Compact placeholder images.
-  - Really nice, compact placeholders.
+- [blurhash](https://github.com/woltapp/blurhash) - Really nice, compact placeholder images.
   - Requires non-native client-side decoding which makes it awkward and slow for browser usage.
+  - Encoding speed is pretty slow (on par with sqip).
   - Under the hood, the `webp` format performs a similar set of transforms as the one used by blurhash.
 
 ## License
