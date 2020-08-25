@@ -29,7 +29,7 @@ module.exports = async function lqipModern(input, opts = {}) {
 async function computeLqipImage(input, opts = {}) {
   const { resize = 16, outputFormat = 'webp', outputOptions } = opts
 
-  const image = sharp(input)
+  const image = sharp(input).rotate()
   const metadata = await image.metadata()
 
   const resized = image.resize(
