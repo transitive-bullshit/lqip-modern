@@ -22,7 +22,7 @@
         },
         "processTime": [
           0,
-          63319160
+          78524006
         ]
       },
       {
@@ -44,7 +44,7 @@
         },
         "processTime": [
           0,
-          488780461
+          532591122
         ]
       },
       {
@@ -66,7 +66,7 @@
         },
         "processTime": [
           0,
-          5124556
+          6002253
         ]
       },
       {
@@ -88,7 +88,7 @@
         },
         "processTime": [
           0,
-          3372008
+          2775491
         ]
       },
       {
@@ -110,7 +110,7 @@
         },
         "processTime": [
           0,
-          3478432
+          4195252
         ]
       },
       {
@@ -132,7 +132,7 @@
         },
         "processTime": [
           0,
-          2202956
+          3156270
         ]
       },
       {
@@ -154,7 +154,7 @@
         },
         "processTime": [
           0,
-          29977935
+          37131077
         ]
       },
       {
@@ -176,7 +176,7 @@
         },
         "processTime": [
           0,
-          2325205
+          2170055
         ]
       },
       {
@@ -184,12 +184,12 @@
         "name": "aaron-burden-151465-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/aaron-burden-151465-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 1016,
-          "originalHuman": "1.02 kB",
-          "gzipBytes": 531,
-          "gzipHuman": "531 B",
-          "brotliBytes": 480,
-          "brotliHuman": "480 B"
+          "originalBytes": 1043,
+          "originalHuman": "1.04 kB",
+          "gzipBytes": 528,
+          "gzipHuman": "528 B",
+          "brotliBytes": 482,
+          "brotliHuman": "482 B"
         },
         "dimensions": {
           "width": 300,
@@ -197,8 +197,8 @@
           "ratio": "4:3"
         },
         "processTime": [
-          1,
-          486349193
+          2,
+          67552452
         ]
       },
       {
@@ -220,7 +220,7 @@
         },
         "processTime": [
           1,
-          300051919
+          598045834
         ]
       }
     ],
@@ -253,7 +253,7 @@
         },
         "processTime": [
           0,
-          50664245
+          54945032
         ]
       },
       {
@@ -275,7 +275,7 @@
         },
         "processTime": [
           0,
-          349100588
+          359813055
         ]
       },
       {
@@ -297,7 +297,7 @@
         },
         "processTime": [
           0,
-          3407830
+          3793680
         ]
       },
       {
@@ -319,7 +319,7 @@
         },
         "processTime": [
           0,
-          2218381
+          2418628
         ]
       },
       {
@@ -341,7 +341,7 @@
         },
         "processTime": [
           0,
-          4117200
+          4360766
         ]
       },
       {
@@ -363,7 +363,7 @@
         },
         "processTime": [
           0,
-          2121853
+          2843220
         ]
       },
       {
@@ -385,7 +385,7 @@
         },
         "processTime": [
           0,
-          25757234
+          23566153
         ]
       },
       {
@@ -407,7 +407,7 @@
         },
         "processTime": [
           0,
-          2568736
+          2397775
         ]
       },
       {
@@ -415,12 +415,12 @@
         "name": "anthony-esau-173126-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/anthony-esau-173126-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 1012,
-          "originalHuman": "1.01 kB",
-          "gzipBytes": 523,
-          "gzipHuman": "523 B",
-          "brotliBytes": 469,
-          "brotliHuman": "469 B"
+          "originalBytes": 1025,
+          "originalHuman": "1.02 kB",
+          "gzipBytes": 519,
+          "gzipHuman": "519 B",
+          "brotliBytes": 464,
+          "brotliHuman": "464 B"
         },
         "dimensions": {
           "width": 300,
@@ -429,7 +429,7 @@
         },
         "processTime": [
           1,
-          481051691
+          307605976
         ]
       },
       {
@@ -451,7 +451,7 @@
         },
         "processTime": [
           0,
-          478372916
+          500337333
         ]
       }
     ],
@@ -484,7 +484,7 @@
         },
         "processTime": [
           0,
-          61158014
+          64714856
         ]
       },
       {
@@ -506,7 +506,7 @@
         },
         "processTime": [
           0,
-          526404406
+          538543049
         ]
       },
       {
@@ -528,7 +528,7 @@
         },
         "processTime": [
           0,
-          31571224
+          34989017
         ]
       },
       {
@@ -550,7 +550,7 @@
         },
         "processTime": [
           0,
-          2462087
+          2240710
         ]
       },
       {
@@ -572,7 +572,7 @@
         },
         "processTime": [
           0,
-          3410463
+          3566575
         ]
       },
       {
@@ -594,7 +594,7 @@
         },
         "processTime": [
           0,
-          3549060
+          1967557
         ]
       },
       {
@@ -616,7 +616,7 @@
         },
         "processTime": [
           0,
-          4226241
+          4492747
         ]
       },
       {
@@ -638,7 +638,7 @@
         },
         "processTime": [
           0,
-          2112907
+          2677463
         ]
       },
       {
@@ -646,12 +646,12 @@
         "name": "aron-visuals-974734-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/aron-visuals-974734-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 1046,
-          "originalHuman": "1.05 kB",
-          "gzipBytes": 511,
-          "gzipHuman": "511 B",
-          "brotliBytes": 450,
-          "brotliHuman": "450 B"
+          "originalBytes": 990,
+          "originalHuman": "990 B",
+          "gzipBytes": 493,
+          "gzipHuman": "493 B",
+          "brotliBytes": 439,
+          "brotliHuman": "439 B"
         },
         "dimensions": {
           "width": 300,
@@ -660,7 +660,7 @@
         },
         "processTime": [
           1,
-          314216977
+          355226040
         ]
       },
       {
@@ -682,7 +682,7 @@
         },
         "processTime": [
           0,
-          659945002
+          663585997
         ]
       }
     ],
@@ -715,7 +715,7 @@
         },
         "processTime": [
           0,
-          28840322
+          29448086
         ]
       },
       {
@@ -737,7 +737,7 @@
         },
         "processTime": [
           0,
-          122791969
+          128316743
         ]
       },
       {
@@ -759,7 +759,7 @@
         },
         "processTime": [
           0,
-          9024875
+          9276947
         ]
       },
       {
@@ -781,7 +781,7 @@
         },
         "processTime": [
           0,
-          2047158
+          2103929
         ]
       },
       {
@@ -803,7 +803,7 @@
         },
         "processTime": [
           0,
-          4903977
+          5738759
         ]
       },
       {
@@ -825,7 +825,7 @@
         },
         "processTime": [
           0,
-          2022983
+          2241531
         ]
       },
       {
@@ -847,7 +847,7 @@
         },
         "processTime": [
           0,
-          3291669
+          3758518
         ]
       },
       {
@@ -869,7 +869,7 @@
         },
         "processTime": [
           0,
-          2349934
+          2321839
         ]
       },
       {
@@ -877,12 +877,12 @@
         "name": "beach-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/beach-sqip.svg",
         "sizes": {
-          "originalBytes": 985,
-          "originalHuman": "985 B",
-          "gzipBytes": 523,
-          "gzipHuman": "523 B",
-          "brotliBytes": 477,
-          "brotliHuman": "477 B"
+          "originalBytes": 1042,
+          "originalHuman": "1.04 kB",
+          "gzipBytes": 537,
+          "gzipHuman": "537 B",
+          "brotliBytes": 484,
+          "brotliHuman": "484 B"
         },
         "dimensions": {
           "width": 300,
@@ -890,8 +890,8 @@
           "ratio": "75:47"
         },
         "processTime": [
-          0,
-          950206031
+          1,
+          133107997
         ]
       },
       {
@@ -913,7 +913,7 @@
         },
         "processTime": [
           0,
-          172936774
+          171218741
         ]
       }
     ],
@@ -946,7 +946,7 @@
         },
         "processTime": [
           0,
-          63602784
+          67468191
         ]
       },
       {
@@ -968,7 +968,7 @@
         },
         "processTime": [
           0,
-          501088727
+          539058590
         ]
       },
       {
@@ -990,7 +990,7 @@
         },
         "processTime": [
           0,
-          37505220
+          42249818
         ]
       },
       {
@@ -1012,7 +1012,7 @@
         },
         "processTime": [
           0,
-          2273552
+          2379329
         ]
       },
       {
@@ -1034,7 +1034,7 @@
         },
         "processTime": [
           0,
-          4646945
+          4744888
         ]
       },
       {
@@ -1056,7 +1056,7 @@
         },
         "processTime": [
           0,
-          5657465
+          5546195
         ]
       },
       {
@@ -1078,7 +1078,7 @@
         },
         "processTime": [
           0,
-          4010752
+          4147748
         ]
       },
       {
@@ -1100,7 +1100,7 @@
         },
         "processTime": [
           0,
-          2929261
+          2650507
         ]
       },
       {
@@ -1108,12 +1108,12 @@
         "name": "charles-550068-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/charles-550068-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 954,
-          "originalHuman": "954 B",
-          "gzipBytes": 518,
-          "gzipHuman": "518 B",
-          "brotliBytes": 463,
-          "brotliHuman": "463 B"
+          "originalBytes": 903,
+          "originalHuman": "903 B",
+          "gzipBytes": 460,
+          "gzipHuman": "460 B",
+          "brotliBytes": 402,
+          "brotliHuman": "402 B"
         },
         "dimensions": {
           "width": 300,
@@ -1122,7 +1122,7 @@
         },
         "processTime": [
           1,
-          549506880
+          633270954
         ]
       },
       {
@@ -1144,7 +1144,7 @@
         },
         "processTime": [
           0,
-          720962425
+          773786222
         ]
       }
     ],
@@ -1177,7 +1177,7 @@
         },
         "processTime": [
           0,
-          57806428
+          59752160
         ]
       },
       {
@@ -1199,7 +1199,7 @@
         },
         "processTime": [
           0,
-          366872437
+          393268208
         ]
       },
       {
@@ -1221,7 +1221,7 @@
         },
         "processTime": [
           0,
-          4585661
+          5845228
         ]
       },
       {
@@ -1243,7 +1243,7 @@
         },
         "processTime": [
           0,
-          2591152
+          2933496
         ]
       },
       {
@@ -1265,7 +1265,7 @@
         },
         "processTime": [
           0,
-          5915263
+          7224220
         ]
       },
       {
@@ -1287,7 +1287,7 @@
         },
         "processTime": [
           0,
-          2973375
+          3496580
         ]
       },
       {
@@ -1309,7 +1309,7 @@
         },
         "processTime": [
           0,
-          30493826
+          31669949
         ]
       },
       {
@@ -1331,7 +1331,7 @@
         },
         "processTime": [
           0,
-          2185820
+          2798116
         ]
       },
       {
@@ -1339,12 +1339,12 @@
         "name": "eric-marty-780304-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/eric-marty-780304-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 1043,
-          "originalHuman": "1.04 kB",
-          "gzipBytes": 520,
-          "gzipHuman": "520 B",
-          "brotliBytes": 458,
-          "brotliHuman": "458 B"
+          "originalBytes": 1054,
+          "originalHuman": "1.05 kB",
+          "gzipBytes": 527,
+          "gzipHuman": "527 B",
+          "brotliBytes": 468,
+          "brotliHuman": "468 B"
         },
         "dimensions": {
           "width": 300,
@@ -1352,8 +1352,8 @@
           "ratio": "1:1"
         },
         "processTime": [
-          1,
-          820964736
+          2,
+          171684912
         ]
       },
       {
@@ -1375,7 +1375,7 @@
         },
         "processTime": [
           0,
-          692101828
+          656567888
         ]
       }
     ],
@@ -1408,7 +1408,7 @@
         },
         "processTime": [
           0,
-          49138272
+          54253660
         ]
       },
       {
@@ -1430,7 +1430,7 @@
         },
         "processTime": [
           0,
-          472226068
+          493995509
         ]
       },
       {
@@ -1452,7 +1452,7 @@
         },
         "processTime": [
           0,
-          7034377
+          7857446
         ]
       },
       {
@@ -1474,7 +1474,7 @@
         },
         "processTime": [
           0,
-          3047845
+          3693007
         ]
       },
       {
@@ -1496,7 +1496,7 @@
         },
         "processTime": [
           0,
-          26305646
+          27909820
         ]
       },
       {
@@ -1518,7 +1518,7 @@
         },
         "processTime": [
           0,
-          2843165
+          3475236
         ]
       },
       {
@@ -1540,7 +1540,7 @@
         },
         "processTime": [
           0,
-          4619503
+          5044591
         ]
       },
       {
@@ -1562,7 +1562,7 @@
         },
         "processTime": [
           0,
-          2727930
+          2756437
         ]
       },
       {
@@ -1570,12 +1570,12 @@
         "name": "ian-dooley-298769-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/ian-dooley-298769-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 997,
-          "originalHuman": "997 B",
-          "gzipBytes": 494,
-          "gzipHuman": "494 B",
-          "brotliBytes": 437,
-          "brotliHuman": "437 B"
+          "originalBytes": 978,
+          "originalHuman": "978 B",
+          "gzipBytes": 484,
+          "gzipHuman": "484 B",
+          "brotliBytes": 433,
+          "brotliHuman": "433 B"
         },
         "dimensions": {
           "width": 300,
@@ -1584,7 +1584,7 @@
         },
         "processTime": [
           1,
-          773924576
+          978768757
         ]
       },
       {
@@ -1606,7 +1606,7 @@
         },
         "processTime": [
           0,
-          625530716
+          628458405
         ]
       }
     ],
@@ -1639,7 +1639,7 @@
         },
         "processTime": [
           0,
-          83464533
+          89478408
         ]
       },
       {
@@ -1661,7 +1661,7 @@
         },
         "processTime": [
           0,
-          584886618
+          615693687
         ]
       },
       {
@@ -1683,7 +1683,7 @@
         },
         "processTime": [
           0,
-          7413072
+          8765136
         ]
       },
       {
@@ -1705,7 +1705,7 @@
         },
         "processTime": [
           0,
-          3380282
+          3688187
         ]
       },
       {
@@ -1727,7 +1727,7 @@
         },
         "processTime": [
           0,
-          54605043
+          54733971
         ]
       },
       {
@@ -1749,7 +1749,7 @@
         },
         "processTime": [
           0,
-          2299895
+          2930122
         ]
       },
       {
@@ -1771,7 +1771,7 @@
         },
         "processTime": [
           0,
-          7354906
+          6970456
         ]
       },
       {
@@ -1793,7 +1793,7 @@
         },
         "processTime": [
           0,
-          2252678
+          3561849
         ]
       },
       {
@@ -1801,12 +1801,12 @@
         "name": "meric-dagli-487815-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/meric-dagli-487815-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 932,
-          "originalHuman": "932 B",
-          "gzipBytes": 477,
-          "gzipHuman": "477 B",
-          "brotliBytes": 437,
-          "brotliHuman": "437 B"
+          "originalBytes": 1011,
+          "originalHuman": "1.01 kB",
+          "gzipBytes": 504,
+          "gzipHuman": "504 B",
+          "brotliBytes": 446,
+          "brotliHuman": "446 B"
         },
         "dimensions": {
           "width": 300,
@@ -1815,7 +1815,7 @@
         },
         "processTime": [
           1,
-          769466393
+          884383684
         ]
       },
       {
@@ -1837,7 +1837,7 @@
         },
         "processTime": [
           0,
-          797065389
+          865507315
         ]
       }
     ],
@@ -1870,7 +1870,7 @@
         },
         "processTime": [
           0,
-          66164902
+          74321927
         ]
       },
       {
@@ -1892,7 +1892,7 @@
         },
         "processTime": [
           0,
-          272138246
+          278973100
         ]
       },
       {
@@ -1914,7 +1914,7 @@
         },
         "processTime": [
           0,
-          32948061
+          33555269
         ]
       },
       {
@@ -1936,7 +1936,7 @@
         },
         "processTime": [
           0,
-          1951108
+          2646446
         ]
       },
       {
@@ -1958,7 +1958,7 @@
         },
         "processTime": [
           0,
-          7813377
+          4113732
         ]
       },
       {
@@ -1980,7 +1980,7 @@
         },
         "processTime": [
           0,
-          2610811
+          2741097
         ]
       },
       {
@@ -2002,7 +2002,7 @@
         },
         "processTime": [
           0,
-          5879873
+          5924253
         ]
       },
       {
@@ -2024,7 +2024,7 @@
         },
         "processTime": [
           0,
-          2266804
+          2470730
         ]
       },
       {
@@ -2032,12 +2032,12 @@
         "name": "mona-lisa-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/mona-lisa-sqip.svg",
         "sizes": {
-          "originalBytes": 1026,
-          "originalHuman": "1.03 kB",
-          "gzipBytes": 512,
-          "gzipHuman": "512 B",
-          "brotliBytes": 457,
-          "brotliHuman": "457 B"
+          "originalBytes": 1022,
+          "originalHuman": "1.02 kB",
+          "gzipBytes": 531,
+          "gzipHuman": "531 B",
+          "brotliBytes": 471,
+          "brotliHuman": "471 B"
         },
         "dimensions": {
           "width": 300,
@@ -2046,7 +2046,7 @@
         },
         "processTime": [
           0,
-          927728645
+          990751992
         ]
       },
       {
@@ -2068,7 +2068,7 @@
         },
         "processTime": [
           0,
-          492332726
+          552383587
         ]
       }
     ],
@@ -2101,7 +2101,7 @@
         },
         "processTime": [
           0,
-          48226753
+          50016342
         ]
       },
       {
@@ -2123,7 +2123,7 @@
         },
         "processTime": [
           0,
-          243448914
+          256070782
         ]
       },
       {
@@ -2145,7 +2145,7 @@
         },
         "processTime": [
           0,
-          6755222
+          6631074
         ]
       },
       {
@@ -2167,7 +2167,7 @@
         },
         "processTime": [
           0,
-          2403501
+          2472777
         ]
       },
       {
@@ -2189,7 +2189,7 @@
         },
         "processTime": [
           0,
-          5790558
+          5858926
         ]
       },
       {
@@ -2211,7 +2211,7 @@
         },
         "processTime": [
           0,
-          2516045
+          2581277
         ]
       },
       {
@@ -2233,7 +2233,7 @@
         },
         "processTime": [
           0,
-          17837060
+          21156055
         ]
       },
       {
@@ -2255,7 +2255,7 @@
         },
         "processTime": [
           0,
-          2731490
+          3169124
         ]
       },
       {
@@ -2263,12 +2263,12 @@
         "name": "quino-al-101314-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/quino-al-101314-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 946,
-          "originalHuman": "946 B",
-          "gzipBytes": 499,
-          "gzipHuman": "499 B",
-          "brotliBytes": 445,
-          "brotliHuman": "445 B"
+          "originalBytes": 936,
+          "originalHuman": "936 B",
+          "gzipBytes": 491,
+          "gzipHuman": "491 B",
+          "brotliBytes": 436,
+          "brotliHuman": "436 B"
         },
         "dimensions": {
           "width": 300,
@@ -2277,7 +2277,7 @@
         },
         "processTime": [
           0,
-          810937132
+          877642660
         ]
       },
       {
@@ -2299,7 +2299,7 @@
         },
         "processTime": [
           0,
-          428942151
+          454134429
         ]
       }
     ],
@@ -2332,7 +2332,7 @@
         },
         "processTime": [
           0,
-          37326209
+          42285896
         ]
       },
       {
@@ -2354,7 +2354,7 @@
         },
         "processTime": [
           0,
-          122722162
+          132098864
         ]
       },
       {
@@ -2376,7 +2376,7 @@
         },
         "processTime": [
           0,
-          13825906
+          13663628
         ]
       },
       {
@@ -2398,7 +2398,7 @@
         },
         "processTime": [
           0,
-          2908752
+          2555158
         ]
       },
       {
@@ -2420,7 +2420,7 @@
         },
         "processTime": [
           0,
-          4000970
+          4125601
         ]
       },
       {
@@ -2442,7 +2442,7 @@
         },
         "processTime": [
           0,
-          2268329
+          2334787
         ]
       },
       {
@@ -2464,7 +2464,7 @@
         },
         "processTime": [
           0,
-          4413129
+          4625212
         ]
       },
       {
@@ -2486,7 +2486,7 @@
         },
         "processTime": [
           0,
-          2599708
+          3475918
         ]
       },
       {
@@ -2494,12 +2494,12 @@
         "name": "shane-young-769905-unsplash-sqip.svg",
         "dist": "/Users/tfischer/dev/modules/sqip/demo/public/processed/shane-young-769905-unsplash-sqip.svg",
         "sizes": {
-          "originalBytes": 1069,
-          "originalHuman": "1.07 kB",
-          "gzipBytes": 539,
-          "gzipHuman": "539 B",
-          "brotliBytes": 481,
-          "brotliHuman": "481 B"
+          "originalBytes": 1032,
+          "originalHuman": "1.03 kB",
+          "gzipBytes": 533,
+          "gzipHuman": "533 B",
+          "brotliBytes": 498,
+          "brotliHuman": "498 B"
         },
         "dimensions": {
           "width": 300,
@@ -2507,8 +2507,8 @@
           "ratio": "1:1"
         },
         "processTime": [
-          0,
-          964341292
+          1,
+          333825085
         ]
       },
       {
@@ -2530,7 +2530,7 @@
         },
         "processTime": [
           0,
-          257508460
+          266688349
         ]
       }
     ],
