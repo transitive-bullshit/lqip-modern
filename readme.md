@@ -53,6 +53,8 @@ An alternative to using this `blur` + `transform` technique is to use a CSS [bac
 npm install --save lqip-modern
 ## or
 yarn add lqip-modern
+## or
+pnpm add lqip-modern
 ```
 
 ## Usage
