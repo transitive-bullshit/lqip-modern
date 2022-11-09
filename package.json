@@ -1,6 +1,6 @@
 {
   "name": "lqip-modern",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "description": "Modern approach to Low Quality Image Placeholders (LQIP) using webp and sharp.",
   "main": "index.js",
   "repository": "transitive-bullshit/lqip-modern",
