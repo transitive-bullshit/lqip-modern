@@ -12,6 +12,7 @@ const pMap = require('p-map')
  * @param {number} [opts.concurrency=4] - Concurrency when processing an array of input images.
  * @param {string} [opts.outputFormat='webp'] - Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`).
  * @param {Object} [opts.outputOptions] - Output options passed to either `sharp.webp` or `sharp.jpeg` dependent on `opts.outputFormat`.
+ * @param {number|boolean} [opts.blur] - false to disable blur
  * @param {number|any[]} [opts.resize] - Options to pass to `sharp.resize`. Defaults to resizing inputs to a max dimension of `16`, with the other dimension being calculated to maintain aspect ratio. If you want more control, you can pass an array of args here which will be forwarded to `sharp.resize`.
  */
 module.exports = async function lqipModern(input, opts = {}) {
@@ -27,9 +28,9 @@ module.exports = async function lqipModern(input, opts = {}) {
 }
 
 async function computeLqipImage(input, opts = {}) {
-  const { resize = 16, outputFormat = 'webp', outputOptions } = opts
+  const { resize = 16, outputFormat = 'webp', outputOptions, blur = 1 } = opts
 
-  const image = sharp(input).rotate()
+  const image = sharp(input).blur(blur).rotate()
   const metadata = await image.metadata()
 
   const resized = image.resize(
@@ -41,6 +42,7 @@ async function computeLqipImage(input, opts = {}) {
           { fit: 'inside' }
         ])
   )
+
   let output
 
   if (outputFormat === 'webp') {
