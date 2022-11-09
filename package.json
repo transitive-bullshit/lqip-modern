@@ -7,7 +7,7 @@
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": ">=14.15"
   },
   "scripts": {
     "docs": "update-markdown-jsdoc --no-markdown-toc && prettier --write readme.md && sed -i '' 's/:transitive-bullshit/transitive-bullshit/g' readme.md",
