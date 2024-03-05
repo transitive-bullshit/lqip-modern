@@ -18,7 +18,7 @@ This package uses a very similar LQIP approach to the one used by [Medium](https
 
 We use `sharp` to resize input images to a max dimension of `16px` and output `webp` (default) or `jpeg` images with an encoding `quality` set to 20. The max dimension is a single, simple variable to tradeoff between encoded image size and visual fidelity.
 
-This resuls in very efficient placeholder images that have noticeable artifacts due to the low quality encoding. These artifacts are then hidden in the browser using a simple blur filter.
+This results in very efficient placeholder images that have noticeable artifacts due to the low quality encoding. These artifacts are then hidden in the browser using a simple blur filter.
 
 ```css
 .placeholder {
