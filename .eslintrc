@@ -1,6 +1,4 @@
 {
   "root": true,
-  "parserOptions": {
-    "ecmaVersion": 2019
-  }
+  "extends": ["@fisch0920/eslint-config/node"]
 }

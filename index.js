@@ -1,9 +1,7 @@
-'use strict'
+import sharp from 'sharp'
+import pMap from 'p-map'
 
-const sharp = require('sharp')
-const pMap = require('p-map')
-
-module.exports = async function lqipModern(input, opts = {}) {
+export default function lqipModern(input, opts = {}) {
   const { concurrency = 4, ...rest } = opts
 
   if (Array.isArray(input)) {

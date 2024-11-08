@@ -8,7 +8,7 @@
   "engines": {
     "node": ">=18"
   },
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
@@ -17,11 +17,10 @@
   },
   "sideEffects": false,
   "scripts": {
-    "docs": "update-markdown-jsdoc --no-markdown-toc && prettier --write readme.md && sed -i '' 's/:transitive-bullshit/transitive-bullshit/g' readme.md",
     "test": "run-s test:*",
     "test:unit": "ava -v",
-    "test:lint": "eslint '**/*.js'",
-    "test:format": "prettier '**/*.js' --check",
+    "test:lint": "eslint .",
+    "test:format": "prettier '**/*.{js,json,ts}' --check",
     "demo": "serve demo",
     "deploy": "gh-pages -d demo"
   },
@@ -30,13 +29,14 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.25.0",
+    "@fisch0920/eslint-config": "^1.4.0",
+    "ava": "^6.2.0",
+    "eslint": "^8.57.0",
     "fs-extra": "^9.1.0",
     "gh-pages": "^3.1.0",
     "globby": "^11.0.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.2.1",
+    "prettier": "^3.3.3",
     "serve": "^11.3.2",
     "update-markdown-jsdoc": "^1.0.11"
   },

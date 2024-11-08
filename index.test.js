@@ -1,10 +1,8 @@
-'use strict'
-
-const fs = require('fs-extra')
-const path = require('path')
-const test = require('ava')
-const globby = require('globby')
-const lqip = require('.')
+import fs from 'fs-extra'
+import path from 'node:path'
+import test from 'ava'
+import globby from 'globby'
+import lqip from './index.js'
 
 const fixtures = globby.sync('fixtures/*.{jpg,jpeg,webp,png}')
 const outputDir = 'output'
