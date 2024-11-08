@@ -1,18 +1,37 @@
-name: Test
+name: CI
 
 on: [push, pull_request]
 
 jobs:
-  Test:
+  test:
+    name: Test Node.js ${{ matrix.node-version }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        node-version:
+          - 18
+          - 22
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        id: pnpm-install
         with:
-          node-version: 22
-          cache: yarn
+          version: 9.12.3
+          run_install: false
 
-      - run: yarn install --frozen-lockfile
-      - name: test
-        run: yarn test
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile --strict-peer-dependencies
+
+      - name: Run test
+        run: pnpm test

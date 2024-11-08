@@ -26,8 +26,8 @@
     "deploy": "gh-pages -d demo"
   },
   "dependencies": {
-    "p-map": "^4.0.0",
-    "sharp": "^0.33.4"
+    "p-map": "^7.0.2",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "ava": "^3.15.0",
