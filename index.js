@@ -3,17 +3,6 @@
 const sharp = require('sharp')
 const pMap = require('p-map')
 
-/**
- * @name lqipModern
- *
- * @param {Buffer|string|Buffer[]|string[]} input - Either an array of image inputs or a single image input.
- * Each image input may either be a `Buffer` containing raw image data, or a `string` containing the filesystem path to a supported image type.
- * @param {Object} [opts] - Optional configuration options.
- * @param {number} [opts.concurrency=4] - Concurrency when processing an array of input images.
- * @param {string} [opts.outputFormat='webp'] - Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`).
- * @param {Object} [opts.outputOptions] - Output options passed to either `sharp.webp` or `sharp.jpeg` dependent on `opts.outputFormat`.
- * @param {number|any[]} [opts.resize] - Options to pass to `sharp.resize`. Defaults to resizing inputs to a max dimension of `16`, with the other dimension being calculated to maintain aspect ratio. If you want more control, you can pass an array of args here which will be forwarded to `sharp.resize`.
- */
 module.exports = async function lqipModern(input, opts = {}) {
   const { concurrency = 4, ...rest } = opts
 
