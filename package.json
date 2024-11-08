@@ -16,6 +16,10 @@
     "default": "./index.js"
   },
   "sideEffects": false,
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "run-s test:*",
     "test:unit": "ava -v",
