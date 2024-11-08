@@ -47,6 +47,6 @@ export type LqipModernOptions = {
 }
 
 export default function lqipModern(
-  input: string | string[] | Buffer | Buffer[],
+  input: string | string[] | Buffer | Buffer[] | ArrayBuffer | ArrayBuffer[],
   opts?: LqipModernOptions
 ): Promise<LqipModernOutput>
