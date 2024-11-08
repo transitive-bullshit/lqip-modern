@@ -33,9 +33,9 @@
     "ava": "^6.2.0",
     "eslint": "^8.57.0",
     "fs-extra": "^9.1.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^6.2.0",
     "globby": "^11.0.3",
-    "npm-run-all": "^4.1.5",
+    "npm-run-all2": "^7.0.0",
     "prettier": "^3.3.3",
     "serve": "^11.3.2",
     "update-markdown-jsdoc": "^1.0.11"
