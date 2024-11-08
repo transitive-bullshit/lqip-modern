@@ -1,6 +1,6 @@
 {
   "name": "lqip-modern",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Modern approach to Low Quality Image Placeholders (LQIP) using webp and sharp.",
   "repository": "transitive-bullshit/lqip-modern",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
