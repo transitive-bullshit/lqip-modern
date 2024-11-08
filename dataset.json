@@ -20,10 +20,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          78524006
-        ]
+        "processTime": [0, 78524006]
       },
       {
         "variantName": "lqip",
@@ -42,10 +39,7 @@
           "height": 8,
           "ratio": "5:4"
         },
-        "processTime": [
-          0,
-          532591122
-        ]
+        "processTime": [0, 532591122]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -64,10 +58,7 @@
           "height": 6,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          6002253
-        ]
+        "processTime": [0, 6002253]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -86,10 +77,7 @@
           "height": 6,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2775491
-        ]
+        "processTime": [0, 2775491]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -108,10 +96,7 @@
           "height": 12,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          4195252
-        ]
+        "processTime": [0, 4195252]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -130,10 +115,7 @@
           "height": 12,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          3156270
-        ]
+        "processTime": [0, 3156270]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -152,10 +134,7 @@
           "height": 24,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          37131077
-        ]
+        "processTime": [0, 37131077]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -174,10 +153,7 @@
           "height": 24,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2170055
-        ]
+        "processTime": [0, 2170055]
       },
       {
         "variantName": "sqip",
@@ -196,10 +172,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          2,
-          67552452
-        ]
+        "processTime": [2, 67552452]
       },
       {
         "variantName": "sqip-potrace",
@@ -218,10 +191,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          1,
-          598045834
-        ]
+        "processTime": [1, 598045834]
       }
     ],
     "dimensions": {
@@ -251,10 +221,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          54945032
-        ]
+        "processTime": [0, 54945032]
       },
       {
         "variantName": "lqip",
@@ -273,10 +240,7 @@
           "height": 8,
           "ratio": "5:4"
         },
-        "processTime": [
-          0,
-          359813055
-        ]
+        "processTime": [0, 359813055]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -295,10 +259,7 @@
           "height": 6,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          3793680
-        ]
+        "processTime": [0, 3793680]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -317,10 +278,7 @@
           "height": 6,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2418628
-        ]
+        "processTime": [0, 2418628]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -339,10 +297,7 @@
           "height": 12,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          4360766
-        ]
+        "processTime": [0, 4360766]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -361,10 +316,7 @@
           "height": 12,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2843220
-        ]
+        "processTime": [0, 2843220]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -383,10 +335,7 @@
           "height": 24,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          23566153
-        ]
+        "processTime": [0, 23566153]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -405,10 +354,7 @@
           "height": 24,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2397775
-        ]
+        "processTime": [0, 2397775]
       },
       {
         "variantName": "sqip",
@@ -427,10 +373,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          1,
-          307605976
-        ]
+        "processTime": [1, 307605976]
       },
       {
         "variantName": "sqip-potrace",
@@ -449,10 +392,7 @@
           "height": 225,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          500337333
-        ]
+        "processTime": [0, 500337333]
       }
     ],
     "dimensions": {
@@ -482,10 +422,7 @@
           "height": 375,
           "ratio": "5:4"
         },
-        "processTime": [
-          0,
-          64714856
-        ]
+        "processTime": [0, 64714856]
       },
       {
         "variantName": "lqip",
@@ -504,10 +441,7 @@
           "height": 13,
           "ratio": "13:10"
         },
-        "processTime": [
-          0,
-          538543049
-        ]
+        "processTime": [0, 538543049]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -526,10 +460,7 @@
           "height": 8,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          34989017
-        ]
+        "processTime": [0, 34989017]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -548,10 +479,7 @@
           "height": 8,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2240710
-        ]
+        "processTime": [0, 2240710]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -570,10 +498,7 @@
           "height": 16,
           "ratio": "16:13"
         },
-        "processTime": [
-          0,
-          3566575
-        ]
+        "processTime": [0, 3566575]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -592,10 +517,7 @@
           "height": 16,
           "ratio": "16:13"
         },
-        "processTime": [
-          0,
-          1967557
-        ]
+        "processTime": [0, 1967557]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -614,10 +536,7 @@
           "height": 32,
           "ratio": "16:13"
         },
-        "processTime": [
-          0,
-          4492747
-        ]
+        "processTime": [0, 4492747]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -636,10 +555,7 @@
           "height": 32,
           "ratio": "16:13"
         },
-        "processTime": [
-          0,
-          2677463
-        ]
+        "processTime": [0, 2677463]
       },
       {
         "variantName": "sqip",
@@ -658,10 +574,7 @@
           "height": 375,
           "ratio": "5:4"
         },
-        "processTime": [
-          1,
-          355226040
-        ]
+        "processTime": [1, 355226040]
       },
       {
         "variantName": "sqip-potrace",
@@ -680,10 +593,7 @@
           "height": 375,
           "ratio": "5:4"
         },
-        "processTime": [
-          0,
-          663585997
-        ]
+        "processTime": [0, 663585997]
       }
     ],
     "dimensions": {
@@ -713,10 +623,7 @@
           "height": 188,
           "ratio": "75:47"
         },
-        "processTime": [
-          0,
-          29448086
-        ]
+        "processTime": [0, 29448086]
       },
       {
         "variantName": "lqip",
@@ -735,10 +642,7 @@
           "height": 6,
           "ratio": "5:3"
         },
-        "processTime": [
-          0,
-          128316743
-        ]
+        "processTime": [0, 128316743]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -757,10 +661,7 @@
           "height": 5,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          9276947
-        ]
+        "processTime": [0, 9276947]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -779,10 +680,7 @@
           "height": 5,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          2103929
-        ]
+        "processTime": [0, 2103929]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -801,10 +699,7 @@
           "height": 10,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          5738759
-        ]
+        "processTime": [0, 5738759]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -823,10 +718,7 @@
           "height": 10,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          2241531
-        ]
+        "processTime": [0, 2241531]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -845,10 +737,7 @@
           "height": 20,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          3758518
-        ]
+        "processTime": [0, 3758518]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -867,10 +756,7 @@
           "height": 20,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          2321839
-        ]
+        "processTime": [0, 2321839]
       },
       {
         "variantName": "sqip",
@@ -889,10 +775,7 @@
           "height": 188,
           "ratio": "75:47"
         },
-        "processTime": [
-          1,
-          133107997
-        ]
+        "processTime": [1, 133107997]
       },
       {
         "variantName": "sqip-potrace",
@@ -911,10 +794,7 @@
           "height": 188,
           "ratio": "75:47"
         },
-        "processTime": [
-          0,
-          171218741
-        ]
+        "processTime": [0, 171218741]
       }
     ],
     "dimensions": {
@@ -944,10 +824,7 @@
           "height": 418,
           "ratio": "209:150"
         },
-        "processTime": [
-          0,
-          67468191
-        ]
+        "processTime": [0, 67468191]
       },
       {
         "variantName": "lqip",
@@ -966,10 +843,7 @@
           "height": 14,
           "ratio": "7:5"
         },
-        "processTime": [
-          0,
-          539058590
-        ]
+        "processTime": [0, 539058590]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -988,10 +862,7 @@
           "height": 8,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          42249818
-        ]
+        "processTime": [0, 42249818]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -1010,10 +881,7 @@
           "height": 8,
           "ratio": "4:3"
         },
-        "processTime": [
-          0,
-          2379329
-        ]
+        "processTime": [0, 2379329]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -1032,10 +900,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          4744888
-        ]
+        "processTime": [0, 4744888]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -1054,10 +919,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          5546195
-        ]
+        "processTime": [0, 5546195]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -1076,10 +938,7 @@
           "height": 32,
           "ratio": "32:23"
         },
-        "processTime": [
-          0,
-          4147748
-        ]
+        "processTime": [0, 4147748]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -1098,10 +957,7 @@
           "height": 32,
           "ratio": "32:23"
         },
-        "processTime": [
-          0,
-          2650507
-        ]
+        "processTime": [0, 2650507]
       },
       {
         "variantName": "sqip",
@@ -1120,10 +976,7 @@
           "height": 418,
           "ratio": "209:150"
         },
-        "processTime": [
-          1,
-          633270954
-        ]
+        "processTime": [1, 633270954]
       },
       {
         "variantName": "sqip-potrace",
@@ -1142,10 +995,7 @@
           "height": 418,
           "ratio": "209:150"
         },
-        "processTime": [
-          0,
-          773786222
-        ]
+        "processTime": [0, 773786222]
       }
     ],
     "dimensions": {
@@ -1175,10 +1025,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          59752160
-        ]
+        "processTime": [0, 59752160]
       },
       {
         "variantName": "lqip",
@@ -1197,10 +1044,7 @@
           "height": 10,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          393268208
-        ]
+        "processTime": [0, 393268208]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -1219,10 +1063,7 @@
           "height": 8,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          5845228
-        ]
+        "processTime": [0, 5845228]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -1241,10 +1082,7 @@
           "height": 8,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          2933496
-        ]
+        "processTime": [0, 2933496]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -1263,10 +1101,7 @@
           "height": 16,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          7224220
-        ]
+        "processTime": [0, 7224220]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -1285,10 +1120,7 @@
           "height": 16,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          3496580
-        ]
+        "processTime": [0, 3496580]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -1307,10 +1139,7 @@
           "height": 32,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          31669949
-        ]
+        "processTime": [0, 31669949]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -1329,10 +1158,7 @@
           "height": 32,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          2798116
-        ]
+        "processTime": [0, 2798116]
       },
       {
         "variantName": "sqip",
@@ -1351,10 +1177,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          2,
-          171684912
-        ]
+        "processTime": [2, 171684912]
       },
       {
         "variantName": "sqip-potrace",
@@ -1373,10 +1196,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          656567888
-        ]
+        "processTime": [0, 656567888]
       }
     ],
     "dimensions": {
@@ -1406,10 +1226,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          54253660
-        ]
+        "processTime": [0, 54253660]
       },
       {
         "variantName": "lqip",
@@ -1428,10 +1245,7 @@
           "height": 15,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          493995509
-        ]
+        "processTime": [0, 493995509]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -1450,10 +1264,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          7857446
-        ]
+        "processTime": [0, 7857446]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -1472,10 +1283,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          3693007
-        ]
+        "processTime": [0, 3693007]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -1494,10 +1302,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          27909820
-        ]
+        "processTime": [0, 27909820]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -1516,10 +1321,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          3475236
-        ]
+        "processTime": [0, 3475236]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -1538,10 +1340,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          5044591
-        ]
+        "processTime": [0, 5044591]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -1560,10 +1359,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          2756437
-        ]
+        "processTime": [0, 2756437]
       },
       {
         "variantName": "sqip",
@@ -1582,10 +1378,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          1,
-          978768757
-        ]
+        "processTime": [1, 978768757]
       },
       {
         "variantName": "sqip-potrace",
@@ -1604,10 +1397,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          628458405
-        ]
+        "processTime": [0, 628458405]
       }
     ],
     "dimensions": {
@@ -1637,10 +1427,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          89478408
-        ]
+        "processTime": [0, 89478408]
       },
       {
         "variantName": "lqip",
@@ -1659,10 +1446,7 @@
           "height": 15,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          615693687
-        ]
+        "processTime": [0, 615693687]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -1681,10 +1465,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          8765136
-        ]
+        "processTime": [0, 8765136]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -1703,10 +1484,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          3688187
-        ]
+        "processTime": [0, 3688187]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -1725,10 +1503,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          54733971
-        ]
+        "processTime": [0, 54733971]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -1747,10 +1522,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          2930122
-        ]
+        "processTime": [0, 2930122]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -1769,10 +1541,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          6970456
-        ]
+        "processTime": [0, 6970456]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -1791,10 +1560,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          3561849
-        ]
+        "processTime": [0, 3561849]
       },
       {
         "variantName": "sqip",
@@ -1813,10 +1579,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          1,
-          884383684
-        ]
+        "processTime": [1, 884383684]
       },
       {
         "variantName": "sqip-potrace",
@@ -1835,10 +1598,7 @@
           "height": 450,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          865507315
-        ]
+        "processTime": [0, 865507315]
       }
     ],
     "dimensions": {
@@ -1868,10 +1628,7 @@
           "height": 447,
           "ratio": "149:100"
         },
-        "processTime": [
-          0,
-          74321927
-        ]
+        "processTime": [0, 74321927]
       },
       {
         "variantName": "lqip",
@@ -1890,10 +1647,7 @@
           "height": 15,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          278973100
-        ]
+        "processTime": [0, 278973100]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -1912,10 +1666,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          33555269
-        ]
+        "processTime": [0, 33555269]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -1934,10 +1685,7 @@
           "height": 8,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          2646446
-        ]
+        "processTime": [0, 2646446]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -1956,10 +1704,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          4113732
-        ]
+        "processTime": [0, 4113732]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -1978,10 +1723,7 @@
           "height": 16,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          2741097
-        ]
+        "processTime": [0, 2741097]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -2000,10 +1742,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          5924253
-        ]
+        "processTime": [0, 5924253]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -2022,10 +1761,7 @@
           "height": 32,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          2470730
-        ]
+        "processTime": [0, 2470730]
       },
       {
         "variantName": "sqip",
@@ -2044,10 +1780,7 @@
           "height": 447,
           "ratio": "149:100"
         },
-        "processTime": [
-          0,
-          990751992
-        ]
+        "processTime": [0, 990751992]
       },
       {
         "variantName": "sqip-potrace",
@@ -2066,10 +1799,7 @@
           "height": 447,
           "ratio": "149:100"
         },
-        "processTime": [
-          0,
-          552383587
-        ]
+        "processTime": [0, 552383587]
       }
     ],
     "dimensions": {
@@ -2099,10 +1829,7 @@
           "height": 200,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          50016342
-        ]
+        "processTime": [0, 50016342]
       },
       {
         "variantName": "lqip",
@@ -2121,10 +1848,7 @@
           "height": 7,
           "ratio": "10:7"
         },
-        "processTime": [
-          0,
-          256070782
-        ]
+        "processTime": [0, 256070782]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -2143,10 +1867,7 @@
           "height": 5,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          6631074
-        ]
+        "processTime": [0, 6631074]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -2165,10 +1886,7 @@
           "height": 5,
           "ratio": "8:5"
         },
-        "processTime": [
-          0,
-          2472777
-        ]
+        "processTime": [0, 2472777]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -2187,10 +1905,7 @@
           "height": 11,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          5858926
-        ]
+        "processTime": [0, 5858926]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -2209,10 +1924,7 @@
           "height": 11,
           "ratio": "16:11"
         },
-        "processTime": [
-          0,
-          2581277
-        ]
+        "processTime": [0, 2581277]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -2231,10 +1943,7 @@
           "height": 21,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          21156055
-        ]
+        "processTime": [0, 21156055]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -2253,10 +1962,7 @@
           "height": 21,
           "ratio": "32:21"
         },
-        "processTime": [
-          0,
-          3169124
-        ]
+        "processTime": [0, 3169124]
       },
       {
         "variantName": "sqip",
@@ -2275,10 +1981,7 @@
           "height": 200,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          877642660
-        ]
+        "processTime": [0, 877642660]
       },
       {
         "variantName": "sqip-potrace",
@@ -2297,10 +2000,7 @@
           "height": 200,
           "ratio": "3:2"
         },
-        "processTime": [
-          0,
-          454134429
-        ]
+        "processTime": [0, 454134429]
       }
     ],
     "dimensions": {
@@ -2330,10 +2030,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          42285896
-        ]
+        "processTime": [0, 42285896]
       },
       {
         "variantName": "lqip",
@@ -2352,10 +2049,7 @@
           "height": 10,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          132098864
-        ]
+        "processTime": [0, 132098864]
       },
       {
         "variantName": "lqip-modern-webp-8",
@@ -2374,10 +2068,7 @@
           "height": 8,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          13663628
-        ]
+        "processTime": [0, 13663628]
       },
       {
         "variantName": "lqip-modern-jpeg-8",
@@ -2396,10 +2087,7 @@
           "height": 8,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          2555158
-        ]
+        "processTime": [0, 2555158]
       },
       {
         "variantName": "lqip-modern-webp-16",
@@ -2418,10 +2106,7 @@
           "height": 16,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          4125601
-        ]
+        "processTime": [0, 4125601]
       },
       {
         "variantName": "lqip-modern-jpeg-16",
@@ -2440,10 +2125,7 @@
           "height": 16,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          2334787
-        ]
+        "processTime": [0, 2334787]
       },
       {
         "variantName": "lqip-modern-webp-32",
@@ -2462,10 +2144,7 @@
           "height": 32,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          4625212
-        ]
+        "processTime": [0, 4625212]
       },
       {
         "variantName": "lqip-modern-jpeg-32",
@@ -2484,10 +2163,7 @@
           "height": 32,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          3475918
-        ]
+        "processTime": [0, 3475918]
       },
       {
         "variantName": "sqip",
@@ -2506,10 +2182,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          1,
-          333825085
-        ]
+        "processTime": [1, 333825085]
       },
       {
         "variantName": "sqip-potrace",
@@ -2528,10 +2201,7 @@
           "height": 300,
           "ratio": "1:1"
         },
-        "processTime": [
-          0,
-          266688349
-        ]
+        "processTime": [0, 266688349]
       }
     ],
     "dimensions": {
