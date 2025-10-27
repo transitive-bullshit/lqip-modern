@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "p-map": "^7.0.2",
-    "sharp": "^0.33.5"
+    "sharp": "^0.34.4"
   },
   "devDependencies": {
     "@fisch0920/eslint-config": "^1.4.0",
