@@ -2,7 +2,7 @@
 
 > Modern approach to Low Quality Image Placeholders (LQIP) using `webp` and `sharp`. ([demo](https://transitive-bullshit.github.io/lqip-modern/))
 
-[![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://github.com/transitive-bullshit/lqip-modern/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/lqip-modern/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![NPM](https://img.shields.io/npm/v/lqip-modern.svg)](https://www.npmjs.com/package/lqip-modern) [![Build Status](https://github.com/transitive-bullshit/lqip-modern/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/lqip-modern/actions/workflows/test.yml) [![Code style enforced by Oxc](https://img.shields.io/badge/code_style-oxc-brightgreen.svg)](https://oxc.rs)
 
 This approach is **extremely fast** and produces **much smaller outputs** than alternatives.
 
