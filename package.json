@@ -2,50 +2,60 @@
   "name": "lqip-modern",
   "version": "2.2.1",
   "description": "Modern approach to Low Quality Image Placeholders (LQIP) using webp and sharp.",
-  "repository": "transitive-bullshit/lqip-modern",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
-  "engines": {
-    "node": ">=18"
-  },
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "repository": "transitive-bullshit/lqip-modern",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "type": "module",
+  "sideEffects": false,
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
     "types": "./index.d.ts",
     "default": "./index.js"
   },
-  "sideEffects": false,
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
   "scripts": {
     "test": "run-s test:*",
+    "test:format": "oxfmt --check",
+    "test:lint": "oxlint",
     "test:unit": "ava -v",
-    "test:lint": "eslint .",
-    "test:format": "prettier '**/*.{js,json,ts}' --check",
     "demo": "serve demo",
-    "deploy": "gh-pages -d demo"
+    "deploy": "gh-pages -d demo",
+    "fix": "run-s fix:*",
+    "fix:format": "oxfmt",
+    "fix:lint": "oxlint --fix",
+    "prerelease": "run-s test",
+    "release": "release-it --only-version --github.release --github.autoGenerate"
   },
   "dependencies": {
-    "p-map": "^7.0.2",
-    "sharp": "^0.34.4"
+    "p-map": "^7.0.6"
   },
   "devDependencies": {
-    "@fisch0920/eslint-config": "^1.4.0",
-    "ava": "^6.2.0",
-    "eslint": "^8.57.0",
-    "fs-extra": "^9.1.0",
-    "gh-pages": "^6.2.0",
-    "globby": "^11.0.3",
-    "npm-run-all2": "^7.0.0",
-    "prettier": "^3.3.3",
-    "serve": "^11.3.2",
+    "@fisch0920/config": "^2.0.5",
+    "@types/node": "^26.2.0",
+    "ava": "^8.0.1",
+    "fs-extra": "^11.4.0",
+    "gh-pages": "^6.3.0",
+    "globby": "^16.2.3",
+    "npm-run-all2": "^9.0.3",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "serve": "^14.2.6",
+    "sharp": "^0.35.3",
     "update-markdown-jsdoc": "^1.0.11"
+  },
+  "peerDependencies": {
+    "sharp": ">= 0.35.3"
   },
   "ava": {
     "failFast": true,
     "snapshotDir": "./.snapshots"
-  }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.22.0"
 }

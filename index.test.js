@@ -1,10 +1,10 @@
 import fs from 'fs-extra'
 import path from 'node:path'
 import test from 'ava'
-import globby from 'globby'
+import { globby } from 'globby'
 import lqip from './index.js'
 
-const fixtures = globby.sync('fixtures/*.{jpg,jpeg,webp,png}')
+const fixtures = await globby('fixtures/*.{jpg,jpeg,webp,png}')
 const outputDir = 'output'
 
 test.before(async () => {

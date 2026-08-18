@@ -50,17 +50,18 @@ An alternative to using this `blur` + `transform` technique is to use a CSS [bac
 ## Install
 
 ```bash
-npm install --save lqip-modern
+npm install --save lqip-modern sharp
 ## or
-yarn add lqip-modern
+yarn add lqip-modern sharp
 ## or
-pnpm add lqip-modern
+pnpm add lqip-modern sharp
 ```
 
 ## Usage
 
 ```js
-const lqip = require('lqip-modern')
+import lqip from 'lqip-modern'
+
 const result = await lqip('fixtures/brooklyn.jpg')
 ```
 
@@ -90,8 +91,7 @@ The format of the output is as close to [sqip](https://github.com/axe312ger/sqip
 
 ### [lqipModern](https://git@github.com/transitive-bullshit/lqip-modern/blob/c3e6abe7ccb77416b34d3c5b8cf37c473327ae0d/index.js#L17-L27)
 
-- `input` **([Buffer](https://nodejs.org/api/buffer.html) \| [string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Buffer](https://nodejs.org/api/buffer.html)> | [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)>)** Either an array of image inputs or a single image input.
-  Each image input may either be a `Buffer` containing raw image data, or a `string` containing the filesystem path to a supported image type.
+- `input` **([Buffer](https://nodejs.org/api/buffer.html) \| [string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String) \| [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Buffer](https://nodejs.org/api/buffer.html)> | [Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)>)** Either an array of image inputs or a single image input. Each image input may either be a `Buffer` containing raw image data, or a `string` containing the filesystem path to a supported image type.
 - `opts` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Optional configuration options.
   - `opts.concurrency` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** Concurrency when processing an array of input images. (optional, default `4`)
   - `opts.outputFormat` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Output format to use; either `webp` or `jpeg` (passing `jpg` is the same as passing `jpeg`). (optional, default `'webp'`)
@@ -138,5 +138,3 @@ _Generated with a [fork of sqip's excellent comparison benchmark](https://github
 ## License
 
 MIT © [Travis Fischer](https://github.com/transitive-bullshit)
-
-Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>

@@ -1,0 +1,4 @@
+{
+  "extends": "@fisch0920/config/tsconfig-node",
+  "include": ["*.config.ts"]
+}
