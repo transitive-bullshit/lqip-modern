@@ -49,7 +49,7 @@ An alternative to using this `blur` + `transform` technique is to use a CSS [bac
 
 ## Install
 
-```bash
+```sh
 npm install --save lqip-modern sharp
 ## or
 yarn add lqip-modern sharp
