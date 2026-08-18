@@ -39,6 +39,9 @@ importers:
       oxlint:
         specifier: ^1.78.0
         version: 1.78.0(oxlint-tsgolint@7.0.2001)
+      oxlint-tsgolint:
+        specifier: ^7.0.2001
+        version: 7.0.2001
       release-it:
         specifier: ^21.0.2
         version: 21.0.2(@types/node@26.2.0)(supports-color@7.2.0)
