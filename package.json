@@ -43,6 +43,7 @@
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.63.0",
     "oxlint": "^1.78.0",
+    "release-it": "^21.0.2",
     "serve": "^14.2.6",
     "sharp": "^0.35.3",
     "update-markdown-jsdoc": "^1.0.11"
